@@ -1,0 +1,25 @@
+﻿Build started 2017/4/1 17:03:19.
+     1>Project "E:\Program\C\ConsoleApplication3\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>e:\program\c\consoleapplication3\consoleapplication1\source.cpp(64): warning C4101: 'i' : unreferenced local variable
+     1>e:\program\c\consoleapplication3\consoleapplication1\source.cpp(64): warning C4101: 'c' : unreferenced local variable
+     1>e:\program\c\consoleapplication3\consoleapplication1\source.cpp(113): warning C4101: 's' : unreferenced local variable
+     1>e:\program\c\consoleapplication3\consoleapplication1\source.cpp(111): warning C4101: 'l' : unreferenced local variable
+     1>e:\program\c\consoleapplication3\consoleapplication1\source.cpp(111): warning C4101: 'c' : unreferenced local variable
+     1>e:\program\c\consoleapplication3\consoleapplication1\source.cpp(113): warning C4101: 't' : unreferenced local variable
+     1>e:\program\c\consoleapplication3\consoleapplication1\source.cpp(217): warning C4101: 'tar_point' : unreferenced local variable
+       Link:
+         D:\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Program\C\ConsoleApplication3\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO opencv_ml2413d.lib opencv_calib3d2413d.lib opencv_contrib2413d.lib opencv_core2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_legacy2413d.lib opencv_objdetect2413d.lib opencv_ts2413d.lib opencv_video2413d.lib opencv_nonfree2413d.lib opencv_ocl2413d.lib opencv_photo2413d.lib opencv_stitching2413d.lib opencv_superres2413d.lib opencv_videostab2413d.lib opencv_objdetect2413.lib opencv_ts2413.lib opencv_video2413.lib opencv_nonfree2413.lib opencv_ocl2413.lib opencv_photo2413.lib opencv_stitching2413.lib opencv_superres2413.lib opencv_videostab2413.lib opencv_calib3d2413.lib opencv_contrib2413.lib opencv_core2413.lib opencv_features2d2413.lib opencv_flann2413.lib opencv_gpu2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_legacy2413.lib opencv_ml2413.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Program\C\ConsoleApplication3\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Program\C\ConsoleApplication3\Debug\ConsoleApplication1.lib" /MACHINE:X86 Debug\binary.obj
+         Debug\contour.obj
+         Debug\draft1.obj
+         Debug\Source.obj
+     1>Source.obj : error LNK2019: unresolved external symbol "int __cdecl calculate_model(void)" (?calculate_model@@YAHXZ) referenced in function "void __cdecl algo_plane(struct _IplImage *)" (?algo_plane@@YAXPAU_IplImage@@@Z)
+     1>Source.obj : error LNK2019: unresolved external symbol "void __cdecl process_model(int)" (?process_model@@YAXH@Z) referenced in function "void __cdecl algo_plane(struct _IplImage *)" (?algo_plane@@YAXPAU_IplImage@@@Z)
+     1>E:\Program\C\ConsoleApplication3\Debug\ConsoleApplication1.exe : fatal error LNK1120: 2 unresolved externals
+     1>Done Building Project "E:\Program\C\ConsoleApplication3\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.04
